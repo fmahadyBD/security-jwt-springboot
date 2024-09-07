@@ -1,6 +1,8 @@
-package com.fahim.security_jwt.security;
+package com.fahim.security_jwt.security.services;
 
 
+import com.fahim.security_jwt.security.entity.MyUser;
+import com.fahim.security_jwt.security.repository.MyUserRepository;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

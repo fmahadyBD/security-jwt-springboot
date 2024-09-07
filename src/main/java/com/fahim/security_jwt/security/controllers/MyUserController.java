@@ -1,8 +1,12 @@
-package com.fahim.security_jwt.security;
+package com.fahim.security_jwt.security.controllers;
 
+import com.fahim.security_jwt.security.entity.LoginForm;
+import com.fahim.security_jwt.security.entity.MyUser;
+import com.fahim.security_jwt.security.services.JwtService;
+import com.fahim.security_jwt.security.services.MyUserService;
+import com.fahim.security_jwt.security.services.MyUserdetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

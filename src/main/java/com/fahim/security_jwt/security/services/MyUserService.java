@@ -1,5 +1,7 @@
-package com.fahim.security_jwt.security;
+package com.fahim.security_jwt.security.services;
 
+import com.fahim.security_jwt.security.entity.MyUser;
+import com.fahim.security_jwt.security.repository.MyUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,5 +1,6 @@
-package com.fahim.security_jwt.security;
+package com.fahim.security_jwt.security.repository;
 
+import com.fahim.security_jwt.security.entity.MyUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

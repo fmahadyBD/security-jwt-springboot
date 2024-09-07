@@ -1,4 +1,4 @@
-package com.fahim.security_jwt.security;
+package com.fahim.security_jwt.security.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package com.fahim.security_jwt.security;
+package com.fahim.security_jwt.security.services;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
